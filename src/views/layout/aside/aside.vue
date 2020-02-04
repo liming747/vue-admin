@@ -2,6 +2,7 @@
   <div>
     <el-aside id="asideNav">
       <div class="logo-name">
+   
         <p v-if="$store.getters.logoShow">XU</p>
         <p v-else>vue 后台管理模板</p>
       </div>

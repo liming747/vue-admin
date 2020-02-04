@@ -295,7 +295,7 @@ let addRouter = [
       }
     ]
   },
-  // 
+  // 系统设置
   {
     path: '/',
     iconCls: 'el-icon-setting', // 图标样式class
@@ -317,18 +317,20 @@ let addRouter = [
     hidden: true,
     children: []
   },
+  // 产品详情
   { path: '/',
-    iconCls: 'fa fa-newspaper-o',
+    iconCls: 'el-icon-menu',
     name:routeNmae.chanpinxiangqing,
     component:Layout,
     children: [
      { path: '/chanpin',
-      iconCls: 'el-icon-menu', // 图标样式class
+      iconCls: 'el-icon-tickets', // 图标样式class
       name: routeNmae.chanpinxiangqing,
       component: chanpinindex,
       children: []}
     ]
   },
+  
 ]
 export default new Router({
   routes: defaultRouter

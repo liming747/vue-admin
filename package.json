@@ -1,5 +1,5 @@
 {
-  "name": "vue-xuadmin",
+  "name": "vue-admin",
   "version": "1.0.0",
   "description": "vue + element-ui 无限级菜单 权限管理 后台模板 ",
   "author": "NiRongxu",
@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "echarts": "^4.1.0",
-    "element-ui": "^2.4.6",
+    "element-ui": "^2.13.0",
     "figlet": "^1.2.0",
     "font-awesome": "^4.7.0",
     "jquery": "^3.3.1",
