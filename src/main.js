@@ -12,6 +12,11 @@ import router from './router'
 import store from './vuex'
 import i18n from './i18n/i18n'
 
+import Vant from 'vant';
+import 'vant/lib/index.css';
+import '@vant/touch-emulator';
+
+Vue.use(Vant);
 Vue.config.productionTip = false
 Vue.use(ElementUI)
 
